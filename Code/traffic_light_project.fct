@@ -1,0 +1,2 @@
+main DSTACK_USAGE:0 DSTACK_LEVEL:0 FILE:"traffic_light_project.c" LINE:163
+timer0_ovf_isr DSTACK_USAGE:8 DSTACK_LEVEL:8 FILE:"traffic_light_project.c" LINE:83

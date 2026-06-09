@@ -1,0 +1,25 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+state                                                                             0x0160       1
+timer                                                                             0x0161       1
+ns_value                                                                          0x0162       1
+we_value                                                                          0x0163       1
+digit_select                                                                      0x0164       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+sec_flag                                                                          R2.0      1bit
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+timer0_ovf_isr                                                                    0x00071     64
+timer2_ovf_isr                                                                    0x000B1      7
+update_display                                                                    0x000B8     32
+main                                                                              0x000D8     79
